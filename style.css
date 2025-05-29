@@ -1,0 +1,66 @@
+/* 全体のスタイル */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* ヘッダー */
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* メインセクション */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* プロフィール写真 */
+.profile img {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+/* セクションごとの余白 */
+section {
+  margin-bottom: 2rem;
+}
+
+/* リンクリスト */
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin: 0.5rem 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: #4a90e2;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  color: #666;
+}
